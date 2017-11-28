@@ -7,7 +7,7 @@ def fib(n):
         curr, prev = curr + prev, curr
     print(*numList, sep='\n')
 
-n = int(input('Enter number of digits'))
+n = int(input('Enter number of digits\n'))
 fib(n)
 
 
